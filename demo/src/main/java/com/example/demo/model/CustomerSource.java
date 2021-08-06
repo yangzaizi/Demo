@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 public class CustomerSource {
 
 	@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long customerId;
 	private String customerName;
 	private String customerAddress;

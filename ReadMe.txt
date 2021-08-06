@@ -7,7 +7,7 @@ mvn clean spring-boot:run  .
 I haven't quite finish swagger part of the project. (In my previous experience, haven't used MapStruct mapping much. So got a bit boggled down figuring out how to do it.)
 Spring is also relatively new to me.
 
-I achieved 96% test coverages.
+I achieved 92% test coverages.
 
 I tested out the api through command line.
 

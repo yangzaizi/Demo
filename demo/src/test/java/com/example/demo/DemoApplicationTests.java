@@ -73,6 +73,15 @@ class DemoApplicationTests {
 
 		JSONAssert.assertEquals(exampleJson, result.getResponse()
 				.getContentAsString(), false);
+		
+		requestBuilder = MockMvcRequestBuilders.get(
+				"/customers/?id=1").accept(
+				MediaType.APPLICATION_JSON);
+		
+		result = mockMvc.perform(requestBuilder).andReturn();
+		
+		JSONAssert.assertEquals(exampleJson, result.getResponse()
+				.getContentAsString(), false);
 	}
 	
 
