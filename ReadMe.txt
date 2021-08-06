@@ -1,11 +1,10 @@
-To run the web service. do mvn clean spring-boot:run  .
+To run the web service. go to the demo folder
 
 
-I haven't quite finish swagger part of the project.
+mvn clean spring-boot:run  .
 
-In my previous experience, haven't used MapStruct mapping much.
 
-So got a bit boggled down figuring out how to do it.
+I haven't quite finish swagger part of the project. (In my previous experience, haven't used MapStruct mapping much. So got a bit boggled down figuring out how to do it.)
 
 I achieved 96% test coverages.
 
@@ -23,5 +22,3 @@ I modeled the customer with long id, string name, and address. The id are like 1
 /customers/?id=1,2 (trying to do multiple, get 400)
 
 To test out in command line do curl -v locallhost:8080/customers  or with the id
-
-
