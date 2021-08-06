@@ -1,6 +1,6 @@
 To run the web service. go to the demo folder
 
-
+mvn clean install
 mvn clean spring-boot:run  .
 
 

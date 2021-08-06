@@ -18,6 +18,10 @@ import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
+import com.example.demo.controller.CustomerController;
+import com.example.demo.model.CustomerSource;
+import com.example.demo.repository.CustomerRepository;
+import com.example.demo.service.CustomerService;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

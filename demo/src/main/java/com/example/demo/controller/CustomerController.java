@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.CustomerMapper;
+import com.example.demo.model.Customer;
+import com.example.demo.model.CustomerSource;
+import com.example.demo.service.CustomerService;
+
 
 
 @RestController
@@ -19,7 +24,7 @@ public class CustomerController {
 	private CustomerService service;
 	
 	@Autowired
-	private CustomerMapperImpl impl;
+	private CustomerMapper impl;
 	
 
 	public CustomerController(CustomerService service) {

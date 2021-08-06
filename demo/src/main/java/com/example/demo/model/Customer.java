@@ -1,6 +1,4 @@
-package com.example.demo;
-
-import lombok.AllArgsConstructor;
+package com.example.demo.model;
 
 public class Customer {
 
@@ -12,7 +10,7 @@ public class Customer {
 		this.customerId = id;
 	}
 	
-	public void setCustomerNamer(String name) {
+	public void setCustomerName(String name) {
 		this.customerName = name;
 	}
 	
